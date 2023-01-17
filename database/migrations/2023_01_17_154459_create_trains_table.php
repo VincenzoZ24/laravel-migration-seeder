@@ -22,6 +22,7 @@ class CreateTrainsTable extends Migration
             $table->time('orario di arrivo')->nullable();
             $table->mediumInteger('codice treno');
             $table->mediumInteger('numero carrozze');
+           
             $table->timestamps();
 
 
