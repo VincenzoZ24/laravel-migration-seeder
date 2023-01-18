@@ -10,6 +10,8 @@ class HomeController extends Controller
     public function home(){
 
         $trains = Train::all();
+
+        
         return view('guest.home',[
             'trains' => $trains, 
         ]);

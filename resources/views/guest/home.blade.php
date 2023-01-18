@@ -2,7 +2,8 @@
 
 @section('content')
     @foreach ($trains as $train)
-    {{$train-> azienda }}
+    <h3>{{$train->azienda }}</h3>
+    
     @endforeach
 @endsection
 
